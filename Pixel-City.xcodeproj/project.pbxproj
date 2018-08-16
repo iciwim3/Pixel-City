@@ -23,7 +23,6 @@
 		430FE05821258E6300A8837C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		430FE05A21258E6400A8837C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		430FE05D21258E6400A8837C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		430FE05F21258E6400A8837C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		46936D43390B9F3C8479A2A7 /* Pods-Pixel-City.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pixel-City.release.xcconfig"; path = "Pods/Target Support Files/Pods-Pixel-City/Pods-Pixel-City.release.xcconfig"; sourceTree = "<group>"; };
 		4B99C078A951EB0AD57D4772 /* Pods_Pixel_City.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pixel_City.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -69,7 +68,6 @@
 				430FE05721258E6300A8837C /* Main.storyboard */,
 				430FE05A21258E6400A8837C /* Assets.xcassets */,
 				430FE05C21258E6400A8837C /* LaunchScreen.storyboard */,
-				430FE05F21258E6400A8837C /* Info.plist */,
 			);
 			path = "Pixel-City";
 			sourceTree = "<group>";
