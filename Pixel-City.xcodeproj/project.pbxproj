@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		01BC69CEE69D7F08B5957000 /* Pods_Pixel_City.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B99C078A951EB0AD57D4772 /* Pods_Pixel_City.framework */; };
 		430FE05421258E6300A8837C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 430FE05321258E6300A8837C /* AppDelegate.swift */; };
 		430FE05621258E6300A8837C /* MapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 430FE05521258E6300A8837C /* MapVC.swift */; };
 		430FE05921258E6300A8837C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 430FE05721258E6300A8837C /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		383E0A8810CE78C4C5985B0A /* Pods-Pixel-City.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pixel-City.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Pixel-City/Pods-Pixel-City.debug.xcconfig"; sourceTree = "<group>"; };
 		430FE05021258E6300A8837C /* Pixel-City.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pixel-City.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		430FE05321258E6300A8837C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		430FE05521258E6300A8837C /* MapVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapVC.swift; sourceTree = "<group>"; };
@@ -22,6 +24,8 @@
 		430FE05A21258E6400A8837C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		430FE05D21258E6400A8837C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		430FE05F21258E6400A8837C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46936D43390B9F3C8479A2A7 /* Pods-Pixel-City.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pixel-City.release.xcconfig"; path = "Pods/Target Support Files/Pods-Pixel-City/Pods-Pixel-City.release.xcconfig"; sourceTree = "<group>"; };
+		4B99C078A951EB0AD57D4772 /* Pods_Pixel_City.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pixel_City.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01BC69CEE69D7F08B5957000 /* Pods_Pixel_City.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +45,8 @@
 			children = (
 				430FE05221258E6300A8837C /* Pixel-City */,
 				430FE05121258E6300A8837C /* Products */,
+				801F0355AF021049697872F6 /* Pods */,
+				F7A3CF701B8A8B90E61B44DF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -96,6 +103,23 @@
 			path = Utilities;
 			sourceTree = "<group>";
 		};
+		801F0355AF021049697872F6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				383E0A8810CE78C4C5985B0A /* Pods-Pixel-City.debug.xcconfig */,
+				46936D43390B9F3C8479A2A7 /* Pods-Pixel-City.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F7A3CF701B8A8B90E61B44DF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4B99C078A951EB0AD57D4772 /* Pods_Pixel_City.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -103,9 +127,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 430FE06221258E6400A8837C /* Build configuration list for PBXNativeTarget "Pixel-City" */;
 			buildPhases = (
+				51B80F8BEDF5FB7ED093FFF1 /* [CP] Check Pods Manifest.lock */,
 				430FE04C21258E6300A8837C /* Sources */,
 				430FE04D21258E6300A8837C /* Frameworks */,
 				430FE04E21258E6300A8837C /* Resources */,
+				30ED2B480AB02B71C0F8CDB1 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -161,6 +187,47 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		30ED2B480AB02B71C0F8CDB1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Pixel-City/Pods-Pixel-City-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Pixel-City/Pods-Pixel-City-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		51B80F8BEDF5FB7ED093FFF1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Pixel-City-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		430FE04C21258E6300A8837C /* Sources */ = {
@@ -310,6 +377,7 @@
 		};
 		430FE06321258E6400A8837C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 383E0A8810CE78C4C5985B0A /* Pods-Pixel-City.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -328,6 +396,7 @@
 		};
 		430FE06421258E6400A8837C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46936D43390B9F3C8479A2A7 /* Pods-Pixel-City.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
